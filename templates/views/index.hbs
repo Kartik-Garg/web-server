@@ -6,6 +6,14 @@
     </head>
     
     <body>
-        <h1>From a static file!</h1>
+        <div class="main-content">
+            {{>header}}
+            <h1>{{title}}</h1>
+            <p>Made by {{name}}</p>
+
+        </div>
+        
+        {{>footer}}
     </body>
+
 </html>
